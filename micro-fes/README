@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=s_Fs4AXsTnA
+
+Run Remote App on 3000:
+  cd remote
+  yarn start
+Run React-Host App on 3001 to view remote app:
+  cd react-host
+  yarn start
+Run Host App on 8080 to view remote app:
+  cd host
+  yarn start
+
+npx create-mf-app
+  - name: react-host
+  - port: 3001
+  - React
+  - Javascript
+  - Tailwind
+  - yarn
+  - yarn start
+npx create-mf-app
+  - name: host
+  - port: 8080
+  - Solid JS
+  - Javascript
+  - Tailwind
+  - yarn
+  - yarn start
+npx create-mf-app
+  - name: remote
+  - port: 3000
+  - Solid JS
+  - Javascript
+  - Tailwind
+  - yarn
+  - yarn start
+Webpack config:
+  - ModuleFederationPlugin:
+    Use exposes on remote
+    Use remotes on host
+
+
