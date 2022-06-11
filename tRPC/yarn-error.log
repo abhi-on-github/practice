@@ -1,0 +1,31 @@
+Arguments: 
+  /Users/ajain1/.nvm/versions/node/v16.15.0/bin/node /Users/ajain1/.nvm/versions/node/v16.15.0/bin/yarn
+
+PATH: 
+  /Users/ajain1/tomcat/apache-tomcat-9.0.50/bin:/Users/ajain1/maven/apache-maven-3.8.1/bin:/Users/ajain1/.nvm/versions/node/v16.15.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/CyberArk EPM.app/Contents/Helpers:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ajain1/project/workspace/practice/tRPC/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /Users/ajain1/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/ajain1/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/ajain1/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

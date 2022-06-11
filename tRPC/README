@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=Lam0cYOEst8
+
+npx create-mf-app
+  api-server
+  API Server
+  8080
+  express
+npx create-mf-app
+  client
+  Application
+  3000
+  react
+  typescript
+  Tailwind
+yarn in package directory
+cd api-server
+  yarn
+  npx tsc --init
+  yarn add @trpc/server zod cors
+  yarn add @types/cors -D
+cd client
+  yarn
+  yarn add @trpc/client @trpc/react react-query zod
+  npx tsc --init
+
+Connect Client to the server:
+  cd client
+  yarn add <server-name>@<server-version> from server's package.json
+  yarn add api-server@1.0.0
+
+
+
+start apps:
+  cd api-server
+    yarn start
+  cd client
+    yarn start
+
