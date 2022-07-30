@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=4U067O3_fYk&t=220s
+
+mkdir diy-micro-fe
+cd diy-micro-fe 
+  mkdir host
+  mkdir components
+  cd components 
+    mkdir images
+    cd images
+      npm init -y
+      yarn add parcel-bundler -D 
+    mkdir checkout
+    cd checkout 
+      npm init -y
+      yarn add parcel-bundler -D 
+      yarn add react react-dom
+      cd ../../host 
+  npm init -y
+  yarn add parcel-bundler -D 

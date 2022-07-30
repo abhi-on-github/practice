@@ -1,0 +1,23 @@
+https://www.youtube.com/watch?v=XzE-PzALyDc&list=PLOzmmzas-fmpKGcUZJ8uwaEPirfxci8Uj&index=17&t=515s
+
+Run Next JS:
+cd next-gql-dogs
+yarn dev
+
+Next jS Setup:
+- yarn create next-app next-gql-dogs
+
+Apollo Sserver Ssetup:
+- yarn add graphql apollo-server-micro
+
+Schema Setup using TypeGraphQL:
+- yarn add reflect-metadata type-graphql class-validator
+
+Graphql code generator
+yarn add @graphql-codegen/cli @graphql-codegen/typescript -D
+yarn add @graphql-codegen/typescript-operations -D
+yarn add @graphql-codegen/typescript-graphql-request -D  
+yarn add @graphql-codegen/typescript-react-query -D
+
+
+
